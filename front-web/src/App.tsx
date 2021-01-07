@@ -1,12 +1,10 @@
 import './App.css';
-import Counter from './Counter';
-import Hello from './Hello';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div>
-        <Hello message="Glauco" />
-        <Counter></Counter>
+      <Navbar />
     </div>
   );
 }
